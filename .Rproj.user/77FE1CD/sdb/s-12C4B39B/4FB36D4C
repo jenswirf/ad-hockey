@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(rvest)\nlibrary(stringr)\nlibrary(magrittr)\nlibrary(lubridate)\nlibrary(tidyverse)\n\nrefresh_all <- function(dir = \"C:/Users/jens.wirf/Documents/moneypuck/data\") {\n\n  # schedule\n  schedule <<- read_schedule(this_season())\n\n  # games\n  games <<- update_games(dir)\n\n  # player games\n  player_games <- update_player_games(dir)\n  skater_games <<- player_games$skaters\n  goalie_games <<- player_games$goalies\n\n\n  # players + (injuries) + (lines)\n  injuries <- read_injuries(this_season())\n  # teams\n\n\n  # fantasy_roster\n\n\n  .updated <- now()\n  write_file(sprintf(\"Data as of _%s_\", today()), \"readme.md\")\n\n  invisible()\n}\n\n\nupdate_player_games <- function(dir) {\n\n  if (!all(file.exists(file.path(dir, \"skater_games.csv\"), file.path(dir, \"goalie_games.csv\"))))\n    stop(\"Data files are missing.\")\n\n  # old\n  skater_games_old <- read_csv(file.path(dir, \"skater_games.csv\"))\n  goalie_games_old <- read_csv(file.path(dir, \"goalie_games.csv\"))\n  max_dt <- max(skater_games_old$date)\n\n  # new\n  player_games <- read_player_games(update = max_dt)\n  skater_games_new <- player_games$skaters\n  goalie_games_new <- player_games$goalies\n\n  # bind\n  skater_games <- skater_games_old %>%\n    filter(date < max_dt) %>%\n    bind_rows(skater_games_new)\n\n  goalie_games <- goalie_games_old %>%\n    filter(date < max_dt) %>%\n    bind_rows(goalie_games_new)\n\n  # rewrite\n  skater_games %>% write_csv(file.path(dir, \"skater_games.csv\"))\n  goalie_games %>% write_csv(file.path(dir, \"goalie_games.csv\"))\n\n  list(skaters = skater_games,\n       goalies = goalie_games)\n}\n\n\nupdate_games <- function(dir) {\n\n  # old\n  games_old <- read_csv(file.path(dir, \"games.csv\"))\n  max_season <- max(games_old$season)\n\n  # new\n  games_new <- read_games(season = max_season)\n\n  # bind\n  games <- games_old %>%\n    filter(season < max_season) %>%\n    bind_rows(games_new)\n\n  # rewrite\n  games %>% write_csv(file.path(dir, \"games.csv\"))\n\n  games\n}\n\n\n",
+    "created" : 1480354142207.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "901385454",
+    "id" : "4FB36D4C",
+    "lastKnownWriteTime" : 1480354294,
+    "last_content_update" : 1480354294187,
+    "path" : "~/GitHub/ad-hockey/R/ad-hockey.R",
+    "project_path" : "R/ad-hockey.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(tidyverse)\nlibrary(rvest)\nlibrary(stringr)\n\nread_injuries <- function(season) {\n\n  message(\"Reading injuries:\")\n\n  teams <- read_teams()\n  injuries <- NULL\n\n  for (team in teams$short) {\n\n    cat(\".\")\n\n    url <- str_c(\"http://widgets.sports-reference.com/wg.fcgi?css=1&site=hr&url=%2Fteams%2F\", team, \"%2F\", season,\".html&div=div_injury\")\n    team_injuries <- NULL\n\n    try({\n      team_injuries <- read_html(url) %>%\n        html_table() %>%\n        .[[1]] %>%\n        tbl_df() %>%\n        transmute(player = Player,\n                  team = team,\n                  injury_date = Date_injury,\n                  injury_type = Injury_type,\n                  injury_note = Injury_note)\n    }, silent = T)\n\n    injuries <- bind_rows(injuries, team_injuries)\n\n  }\n\n  injuries\n}\n",
+    "created" : 1480354367035.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1222161291",
+    "id" : "7D084950",
+    "lastKnownWriteTime" : 1480353967,
+    "last_content_update" : 1480353967,
+    "path" : "~/GitHub/ad-hockey/R/sports_reference.R",
+    "project_path" : "R/sports_reference.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
