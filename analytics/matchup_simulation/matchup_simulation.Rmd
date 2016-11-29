@@ -1,0 +1,73 @@
+---
+title: "Matchup Simulation"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+source("../../R/utils.R")
+```
+
+```{r, include=FALSE, echo=T}
+skater_games <- read_csv("../../data/skater_games.csv")
+fantasy_roster <- read_csv("../../data/fantasy_roster.csv")
+schedule <- read_csv("../../data/schedule.csv")
+teams <- read_teams()
+```
+```{r}
+project_production <- function(x, n = 10000) {
+  s <- map(x, ~ sample(., n, replace = T))
+  out = vector()
+  for (i in 1:n) {
+    out[i] <- sum(unlist(lapply(s, `[[`, i)))
+  }
+  out
+}
+```
+
+```{r}
+
+a <- "Full Kopitard"
+b <- "Gökarna"
+
+remaining <- schedule %>%
+  filter(date >= today(),
+         date <= ceiling_date(today(), "week") + days(1)) %>%
+  select(-season, -link) %>%
+  gather("home_away","long", -date) %>%
+  count(long) %>%
+  inner_join(teams) %>%
+  transmute(team = short, remaining = n)
+
+data <- skater_games %>%
+  inner_join(fantasy_roster, by = "player") %>% 
+  filter(is.na(status),
+         owner %in% c(a, b))
+
+
+
+```
+
+```{r}
+
+
+  .$points %>%
+  project_production()
+
+proj <- data_frame(me = a, opp = b)
+
+dens <- proj %>%
+  gather(owner, prod)
+
+ggplot(dens, aes(x = prod, fill = owner)) +
+  geom_density(alpha = .75) +
+  theme_fivethirtyeight() +
+  theme(panel.grid.major = element_blank(),
+        axis.text.y = element_blank()) +
+  scale_fill_manual(values = c("steelblue", "grey70"))
+
+
+```
+
