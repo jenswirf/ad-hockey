@@ -7,7 +7,7 @@ library(tidyverse)
 
 update_all <- function(dir = "data") {
 
-  schedule <<- read_schedule(this_season())
+  schedule <<- update_schedule(dir, this_season())
 
   games <<- update_games(dir)
 
@@ -31,6 +31,13 @@ update_all <- function(dir = "data") {
   invisible()
 }
 
+update_schedule <- function(dir, ...) {
+
+  schedule <- read_schedule(...)
+  write_csv(schedule, file.path(dir, "schedule.csv"))
+
+  schedule
+}
 
 update_fantasy_roster <- function(dir) {
 
