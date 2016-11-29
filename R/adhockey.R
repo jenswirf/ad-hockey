@@ -4,7 +4,8 @@ library(magrittr)
 library(lubridate)
 library(tidyverse)
 
-refresh_all <- function(dir = "../../data") {
+
+refresh_all <- function(dir = "data") {
 
   # schedule
   schedule <<- read_schedule(this_season())
