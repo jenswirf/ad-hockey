@@ -206,11 +206,13 @@ read_player_games <- function(season, update) {
 
 
 # read basic info on all players from hockey reference
-read_player_info <- function(season) {
+read_players <- function(season) {
 
-  message("Reading player info:")
+  message("Reading players:")
 
   roster <- NULL
+  teams <- read_teams()
+
   for (team in teams$short) {
 
     cat(".")

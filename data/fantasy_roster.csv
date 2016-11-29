@@ -1,0 +1,182 @@
+roster_spot,player,position,status,next_game,team,home_away,next_versus,has_game_tonight,owner
+C,Joe Thornton,C,NA,4:00 am,SJS,home,ARI,1,Motor IK
+C,Jonathan Toews,C,Day-to-Day,2:30 am,CHI,home,FLA,1,Motor IK
+C,Brayden Schenn,"C,LW",NA,1:30 am,PHI,home,BOS,1,Motor IK
+LW,Filip Forsberg,LW,NA,3:00 am,NSH,away,COL,1,Motor IK
+LW,Jeff Skinner,LW,NA,1:00 am,CAR,away,NYR,1,Motor IK
+LW,Mike Hoffman,LW,NA,1:30 am,OTT,home,BUF,1,Motor IK
+RW,Wayne Simmonds,RW,NA,1:30 am,PHI,home,BOS,1,Motor IK
+RW,Vladimir Tarasenko,RW,NA,NA,STL,NA,NA,0,Motor IK
+RW,Marian Hossa,RW,NA,2:30 am,CHI,home,FLA,1,Motor IK
+D,Brent Burns,D,NA,4:00 am,SJS,home,ARI,1,Motor IK
+D,Keith Yandle,D,NA,2:30 am,FLA,away,CHI,1,Motor IK
+D,Marc-Edouard Vlasic,D,NA,4:00 am,SJS,home,ARI,1,Motor IK
+D,Colton Parayko,D,NA,NA,STL,NA,NA,0,Motor IK
+D,Dion Phaneuf,D,NA,1:30 am,OTT,home,BUF,1,Motor IK
+D,Zdeno Chara,D,Day-to-Day,1:30 am,BOS,away,PHI,1,Motor IK
+Util,Milan Lucic,LW,NA,3:00 am,EDM,home,TOR,1,Motor IK
+G,Roberto Luongo,G,NA,2:30 am,FLA,away,CHI,1,Motor IK
+G,Craig Anderson,G,NA,1:30 am,OTT,home,BUF,1,Motor IK
+BN,Nail Yakupov,RW,NA,NA,STL,NA,NA,0,Motor IK
+BN,Evgeny Kuznetsov,C,NA,NA,WAS,NA,NA,0,Motor IK
+BN,Jeff Carter,C,NA,NA,LAK,NA,NA,0,Motor IK
+BN,Jake Allen,G,NA,NA,STL,NA,NA,0,Motor IK
+C,Alexander Wennberg,C,NA,1:00 am,CLS,home,TB,1,Basi SK
+C,Derick Brassard,C,NA,1:30 am,OTT,home,BUF,1,Basi SK
+C,David Krejci,C,NA,1:30 am,BOS,away,PHI,1,Basi SK
+LW,Ryan O'Reilly,"C,LW",NA,1:30 am,BUF,away,OTT,1,Basi SK
+LW,Jonathan Marchessault,"C,LW",NA,2:30 am,FLA,away,CHI,1,Basi SK
+LW,James van Riemsdyk,LW,NA,3:00 am,TOR,away,EDM,1,Basi SK
+RW,Patrick Eaves,RW,NA,1:30 am,DAL,away,DET,1,Basi SK
+RW,Leon Draisaitl,"C,RW",NA,3:00 am,EDM,home,TOR,1,Basi SK
+RW,Cam Atkinson,RW,NA,1:00 am,CLS,home,TB,1,Basi SK
+D,Erik Karlsson,D,NA,1:30 am,OTT,home,BUF,1,Basi SK
+D,Duncan Keith,D,NA,2:30 am,CHI,home,FLA,1,Basi SK
+D,Nick Leddy,D,NA,NA,NYI,NA,NA,0,Basi SK
+D,Morgan Rielly,D,NA,3:00 am,TOR,away,EDM,1,Basi SK
+D,Tyson Barrie,D,NA,3:00 am,COL,home,NSH,1,Basi SK
+D,Hampus Lindholm,D,NA,4:00 am,ANA,home,MON,1,Basi SK
+Util,Ryan Getzlaf,C,NA,4:00 am,ANA,home,MON,1,Basi SK
+G,Ben Bishop,G,NA,1:00 am,TBL,away,CLS,1,Basi SK
+G,Tuukka Rask,G,NA,1:30 am,BOS,away,PHI,1,Basi SK
+BN,Phil Kessel,RW,NA,NA,PIT,NA,NA,0,Basi SK
+BN,Nathan MacKinnon,"C,RW",NA,3:00 am,COL,home,NSH,1,Basi SK
+BN,Johnny Gaudreau,LW,Injured Reserve,NA,CGY,NA,NA,0,Basi SK
+IR,Jack Eichel,C,Injured Reserve,1:30 am,BUF,away,OTT,1,Basi SK
+BN,John Gibson,G,NA,4:00 am,ANA,home,MON,1,Basi SK
+C,J.T. Miller,"C,LW,RW",Day-to-Day,1:00 am,NYR,home,CAR,1,Gökarna
+C,Tyler Seguin,C,NA,1:30 am,DAL,away,DET,1,Gökarna
+C,Ryan Johansen,C,NA,3:00 am,NSH,away,COL,1,Gökarna
+LW,Chris Kreider,LW,NA,1:00 am,NYR,home,CAR,1,Gökarna
+LW,Jamie Benn,LW,NA,1:30 am,DAL,away,DET,1,Gökarna
+LW,Thomas Vanek,"LW,RW",NA,1:30 am,DET,home,DAL,1,Gökarna
+RW,Blake Wheeler,RW,NA,2:00 am,WPG,home,NJ,1,Gökarna
+RW,Mitchell Marner,"C,RW",NA,3:00 am,TOR,away,EDM,1,Gökarna
+RW,Nick Foligno,"LW,RW",NA,1:00 am,CLS,home,TB,1,Gökarna
+D,Kris Letang,D,NA,NA,PIT,NA,NA,0,Gökarna
+D,Mark Giordano,D,NA,NA,CGY,NA,NA,0,Gökarna
+D,Kevin Shattenkirk,D,NA,NA,STL,NA,NA,0,Gökarna
+D,Alex Pietrangelo,D,NA,NA,STL,NA,NA,0,Gökarna
+D,Cam Fowler,D,NA,4:00 am,ANA,home,MON,1,Gökarna
+D,Brian Campbell,D,NA,2:30 am,CHI,home,FLA,1,Gökarna
+Util,Patrice Bergeron,C,NA,1:30 am,BOS,away,PHI,1,Gökarna
+G,Jimmy Howard,G,Injured Reserve,1:30 am,DET,home,DAL,1,Gökarna
+G,Brian Elliott,G,NA,NA,CGY,NA,NA,0,Gökarna
+BN,Artem Anisimov,C,NA,2:30 am,CHI,home,FLA,1,Gökarna
+BN,Patric Hornqvist,RW,Day-to-Day,NA,PIT,NA,NA,0,Gökarna
+BN,Rickard Rakell,"C,LW",NA,4:00 am,ANA,home,MON,1,Gökarna
+BN,Semyon Varlamov,G,NA,3:00 am,COL,home,NSH,1,Gökarna
+C,Victor Rask,C,NA,1:00 am,CAR,away,NYR,1,Sundbyberg McVares
+C,Alex Galchenyuk,C,NA,4:00 am,MON,away,ANH,1,Sundbyberg McVares
+C,Connor McDavid,C,NA,3:00 am,EDM,home,TOR,1,Sundbyberg McVares
+LW,Brad Marchand,LW,NA,1:30 am,BOS,away,PHI,1,Sundbyberg McVares
+LW,Jakub Voracek,"LW,RW",NA,1:30 am,PHI,home,BOS,1,Sundbyberg McVares
+LW,Rick Nash,"LW,RW",NA,1:00 am,NYR,home,CAR,1,Sundbyberg McVares
+RW,Kevin Hayes,"C,RW",NA,1:00 am,NYR,home,CAR,1,Sundbyberg McVares
+RW,Jordan Eberle,RW,NA,3:00 am,EDM,home,TOR,1,Sundbyberg McVares
+RW,Kyle Palmieri,RW,NA,2:00 am,NJD,away,WPG,1,Sundbyberg McVares
+D,Sami Vatanen,D,NA,4:00 am,ANA,home,MON,1,Sundbyberg McVares
+D,John Klingberg,D,NA,1:30 am,DAL,away,DET,1,Sundbyberg McVares
+D,Andrei Markov,D,NA,4:00 am,MON,away,ANH,1,Sundbyberg McVares
+D,Ryan Suter,D,NA,4:00 am,MIN,away,VAN,1,Sundbyberg McVares
+D,Justin Faulk,D,NA,1:00 am,CAR,away,NYR,1,Sundbyberg McVares
+D,Roman Josi,D,NA,3:00 am,NSH,away,COL,1,Sundbyberg McVares
+Util,Mike Green,D,NA,1:30 am,DET,home,DAL,1,Sundbyberg McVares
+G,Carey Price,G,NA,4:00 am,MON,away,ANH,1,Sundbyberg McVares
+G,Matt Murray,G,NA,NA,PIT,NA,NA,0,Sundbyberg McVares
+BN,Ondrej Palat,LW,Day-to-Day,1:00 am,TBL,away,CLS,1,Sundbyberg McVares
+BN,John Tavares,C,NA,NA,NYI,NA,NA,0,Sundbyberg McVares
+BN,Jaden Schwartz,"C,LW",NA,NA,STL,NA,NA,0,Sundbyberg McVares
+BN,T.J. Oshie,RW,Out,NA,WAS,NA,NA,0,Sundbyberg McVares
+C,Dylan Larkin,"C,RW",NA,1:30 am,DET,home,DAL,1,HK Södermalm
+C,Andrew Shaw,"C,RW",NA,4:00 am,MON,away,ANH,1,HK Södermalm
+C,William Nylander,"C,RW",NA,3:00 am,TOR,away,EDM,1,HK Södermalm
+LW,Nikolaj Ehlers,"LW,RW",NA,2:00 am,WPG,home,NJ,1,HK Södermalm
+LW,Sebastian Aho,"LW,RW",NA,1:00 am,CAR,away,NYR,1,HK Södermalm
+LW,Brandon Saad,"LW,RW",NA,1:00 am,CLS,home,TB,1,HK Södermalm
+RW,Michael Grabner,"LW,RW",Day-to-Day,1:00 am,NYR,home,CAR,1,HK Södermalm
+RW,David Pastrnak,RW,NA,1:30 am,BOS,away,PHI,1,HK Södermalm
+RW,Patrik Laine,"LW,RW",NA,2:00 am,WPG,home,NJ,1,HK Södermalm
+D,Dustin Byfuglien,D,NA,2:00 am,WPG,home,NJ,1,HK Södermalm
+D,Aaron Ekblad,D,NA,2:30 am,FLA,away,CHI,1,HK Södermalm
+D,Shea Weber,D,NA,4:00 am,MON,away,ANH,1,HK Södermalm
+D,Damon Severson,D,NA,2:00 am,NJD,away,WPG,1,HK Södermalm
+D,Oliver Ekman-Larsson,D,NA,4:00 am,ARI,away,SJ,1,HK Södermalm
+D,Anton Stralman,D,Out,1:00 am,TBL,away,CLS,1,HK Södermalm
+Util,Matt Niskanen,D,Day-to-Day,NA,WAS,NA,NA,0,HK Södermalm
+G,Cam Talbot,G,NA,3:00 am,EDM,home,TOR,1,HK Södermalm
+G,Cory Schneider,G,NA,2:00 am,NJD,away,WPG,1,HK Södermalm
+BN,Evgeni Malkin,C,NA,NA,PIT,NA,NA,0,HK Södermalm
+BN,Alex Ovechkin,LW,NA,NA,WAS,NA,NA,0,HK Södermalm
+BN,Tyler Toffoli,"C,RW",NA,NA,LAK,NA,NA,0,HK Södermalm
+IR,Taylor Hall,LW,Injured Reserve,2:00 am,NJD,away,WPG,1,HK Södermalm
+BN,Marc-Andre Fleury,G,NA,NA,PIT,NA,NA,0,HK Södermalm
+C,Tyler Johnson,C,NA,1:00 am,TBL,away,CLS,1,Full Kopitard
+C,Matt Duchene,"C,RW",NA,3:00 am,COL,home,NSH,1,Full Kopitard
+C,Auston Matthews,C,NA,3:00 am,TOR,away,EDM,1,Full Kopitard
+LW,Artemi Panarin,LW,NA,2:30 am,CHI,home,FLA,1,Full Kopitard
+LW,Zach Parise,LW,NA,4:00 am,MIN,away,VAN,1,Full Kopitard
+LW,Michael Cammalleri,LW,NA,2:00 am,NJD,away,WPG,1,Full Kopitard
+RW,Patrick Sharp,"LW,RW",NA,1:30 am,DAL,away,DET,1,Full Kopitard
+RW,Mats Zuccarello,RW,NA,1:00 am,NYR,home,CAR,1,Full Kopitard
+RW,Kyle Okposo,RW,NA,1:30 am,BUF,away,OTT,1,Full Kopitard
+D,Drew Doughty,D,NA,NA,LAK,NA,NA,0,Full Kopitard
+D,Shayne Gostisbehere,D,NA,1:30 am,PHI,home,BOS,1,Full Kopitard
+D,Victor Hedman,D,NA,1:00 am,TBL,away,CLS,1,Full Kopitard
+D,Zach Werenski,D,NA,1:00 am,CLS,home,TB,1,Full Kopitard
+D,Oscar Klefbom,D,NA,3:00 am,EDM,home,TOR,1,Full Kopitard
+D,NA,NA,NA,NA,NA,NA,NA,0,Full Kopitard
+Util,Alex Killorn,"C,LW",NA,1:00 am,TBL,away,CLS,1,Full Kopitard
+G,Corey Crawford,G,NA,2:30 am,CHI,home,FLA,1,Full Kopitard
+G,Sergei Bobrovsky,G,NA,1:00 am,CLS,home,TB,1,Full Kopitard
+BN,Anze Kopitar,C,NA,NA,LAK,NA,NA,0,Full Kopitard
+BN,Nicklas Backstrom,C,NA,NA,WAS,NA,NA,0,Full Kopitard
+BN,David Perron,"LW,RW",NA,NA,STL,NA,NA,0,Full Kopitard
+IR,Steven Stamkos,C,Injured Reserve,1:00 am,TBL,away,CLS,1,Full Kopitard
+BN,Braden Holtby,G,NA,NA,WAS,NA,NA,0,Full Kopitard
+BN,Peter Budaj,G,NA,NA,LAK,NA,NA,0,Full Kopitard
+C,Mark Scheifele,C,NA,2:00 am,WPG,home,NJ,1,Uppsala Lolcatz
+C,Henrik Zetterberg,"C,LW",NA,1:30 am,DET,home,DAL,1,Uppsala Lolcatz
+C,Vincent Trocheck,C,NA,2:30 am,FLA,away,CHI,1,Uppsala Lolcatz
+LW,Max Domi,LW,NA,4:00 am,ARI,away,SJ,1,Uppsala Lolcatz
+LW,Gustav Nyquist,"LW,RW",NA,1:30 am,DET,home,DAL,1,Uppsala Lolcatz
+LW,Gabriel Landeskog,LW,Out,3:00 am,COL,home,NSH,1,Uppsala Lolcatz
+RW,Joe Pavelski,"C,RW",NA,4:00 am,SJS,home,ARI,1,Uppsala Lolcatz
+RW,Corey Perry,RW,NA,4:00 am,ANA,home,MON,1,Uppsala Lolcatz
+RW,Jakob Silfverberg,RW,NA,4:00 am,ANA,home,MON,1,Uppsala Lolcatz
+D,John Carlson,D,NA,NA,WAS,NA,NA,0,Uppsala Lolcatz
+D,Torey Krug,D,NA,1:30 am,BOS,away,PHI,1,Uppsala Lolcatz
+D,Rasmus Ristolainen,D,NA,1:30 am,BUF,away,OTT,1,Uppsala Lolcatz
+D,Brent Seabrook,D,NA,2:30 am,CHI,home,FLA,1,Uppsala Lolcatz
+D,Alec Martinez,D,NA,NA,LAK,NA,NA,0,Uppsala Lolcatz
+D,Matt Dumba,D,NA,4:00 am,MIN,away,VAN,1,Uppsala Lolcatz
+Util,James Neal,RW,Injured Reserve,3:00 am,NSH,away,COL,1,Uppsala Lolcatz
+G,Henrik Lundqvist,G,NA,1:00 am,NYR,home,CAR,1,Uppsala Lolcatz
+G,Devan Dubnyk,G,NA,4:00 am,MIN,away,VAN,1,Uppsala Lolcatz
+BN,Marcus Johansson,"LW,RW",NA,NA,WAS,NA,NA,0,Uppsala Lolcatz
+BN,Sidney Crosby,C,NA,NA,PIT,NA,NA,0,Uppsala Lolcatz
+BN,Max Pacioretty,LW,NA,4:00 am,MON,away,ANH,1,Uppsala Lolcatz
+BN,Brendan Gallagher,RW,NA,4:00 am,MON,away,ANH,1,Uppsala Lolcatz
+IR,Jonathan Quick,G,Injured Reserve,NA,LAK,NA,NA,0,Uppsala Lolcatz
+C,Claude Giroux,C,NA,1:30 am,PHI,home,BOS,1,HC Andersen
+C,Logan Couture,C,NA,4:00 am,SJS,home,ARI,1,HC Andersen
+C,Aleksander Barkov,C,NA,2:30 am,FLA,away,CHI,1,HC Andersen
+LW,Daniel Sedin,LW,NA,4:00 am,VAN,home,MIN,1,HC Andersen
+LW,Andrew Ladd,LW,NA,NA,NYI,NA,NA,0,HC Andersen
+LW,Boone Jenner,"C,LW",NA,1:00 am,CLS,home,TB,1,HC Andersen
+RW,Patrick Kane,RW,NA,2:30 am,CHI,home,FLA,1,HC Andersen
+RW,Nikita Kucherov,RW,NA,1:00 am,TBL,away,CLS,1,HC Andersen
+RW,Alexander Radulov,"LW,RW",NA,4:00 am,MON,away,ANH,1,HC Andersen
+D,P.K. Subban,D,NA,3:00 am,NSH,away,COL,1,HC Andersen
+D,Jake Muzzin,D,NA,NA,LAK,NA,NA,0,HC Andersen
+D,Dougie Hamilton,D,NA,NA,CGY,NA,NA,0,HC Andersen
+D,Ryan McDonagh,D,NA,1:00 am,NYR,home,CAR,1,HC Andersen
+D,Seth Jones,D,NA,1:00 am,CLS,home,TB,1,HC Andersen
+D,Johnny Boychuk,D,NA,NA,NYI,NA,NA,0,HC Andersen
+Util,Ryan Kesler,C,NA,4:00 am,ANA,home,MON,1,HC Andersen
+G,Pekka Rinne,G,NA,3:00 am,NSH,away,COL,1,HC Andersen
+G,Martin Jones,G,NA,4:00 am,SJS,home,ARI,1,HC Andersen
+BN,Alexander Steen,"LW,RW",Day-to-Day,NA,STL,NA,NA,0,HC Andersen
+BN,Adam Henrique,C,NA,2:00 am,NJD,away,WPG,1,HC Andersen
+BN,Shane Doan,RW,NA,4:00 am,ARI,away,SJ,1,HC Andersen
+BN,Frederik Andersen,G,NA,3:00 am,TOR,away,EDM,1,HC Andersen

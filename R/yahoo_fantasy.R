@@ -3,7 +3,9 @@ library(rvest)
 library(stringr)
 
 
-read_fantasy_roster <- function(league_id = 65267, user, passwd) {
+read_fantasy_roster <- function(league_id = Sys.getenv("YAHOO_LEAGUE"),
+                                user = Sys.getenv("YAHOO_USR"),
+                                passwd = Sys.getenv("YAHOO_PWD")) {
 
   message("Reading yahoo league roster:")
 

@@ -5,27 +5,25 @@ library(lubridate)
 library(tidyverse)
 
 
-refresh_all <- function(dir = "data") {
+update_all <- function(dir = "data") {
 
-  # schedule
   schedule <<- read_schedule(this_season())
 
-  # games
   games <<- update_games(dir)
 
-  # player games
   player_games <- update_player_games(dir)
   skater_games <<- player_games$skaters
   goalie_games <<- player_games$goalies
 
+  players <<- update_players(dir, this_season())
 
-  # players + (injuries) + (lines)
-  injuries <- read_injuries(this_season())
+  injuries <<- update_injuries(dir, this_season())
+
+  fantasy_roster <<- update_fantasy_roster(dir)
+
   # teams
 
-
-  # fantasy_roster
-
+  # lines
 
   .updated <- now()
   write_file(sprintf("Data as of _%s_", today()), "readme.md")
@@ -33,6 +31,30 @@ refresh_all <- function(dir = "data") {
   invisible()
 }
 
+
+update_fantasy_roster <- function(dir) {
+
+  fantasy_roster <- read_fantasy_roster()
+  write_csv(fantasy_roster, file.path(dir, "fantasy_roster.csv"))
+
+  fantasy_roster
+}
+
+update_injuries <- function(dir, ...) {
+
+  injuries <- read_injuries(...)
+  write_csv(injuries, file.path(dir, "injuries.csv"))
+
+  injuries
+}
+
+update_players <- function(dir, ...) {
+
+  players <- read_players(...)
+  write_csv(players, file.path(dir, "players.csv"))
+
+  players
+}
 
 update_player_games <- function(dir) {
 
