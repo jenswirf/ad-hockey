@@ -328,47 +328,47 @@ date,visitor,home,season,link
 2016-11-27,Nashville Predators,Winnipeg Jets,2017.0,http://www.hockey-reference.com/boxscores/201611270WPG.html
 2016-11-28,Calgary Flames,New York Islanders,2017.0,http://www.hockey-reference.com/boxscores/201611280NYI.html
 2016-11-28,Dallas Stars,St. Louis Blues,2017.0,http://www.hockey-reference.com/boxscores/201611280STL.html
-2016-11-29,Montreal Canadiens,Anaheim Ducks,2017.0,NA
-2016-11-29,Tampa Bay Lightning,Columbus Blue Jackets,2017.0,NA
-2016-11-29,Florida Panthers,Chicago Blackhawks,2017.0,NA
-2016-11-29,Nashville Predators,Colorado Avalanche,2017.0,NA
-2016-11-29,Dallas Stars,Detroit Red Wings,2017.0,NA
-2016-11-29,Toronto Maple Leafs,Edmonton Oilers,2017.0,NA
-2016-11-29,Carolina Hurricanes,New York Rangers,2017.0,NA
-2016-11-29,Buffalo Sabres,Ottawa Senators,2017.0,NA
-2016-11-29,Boston Bruins,Philadelphia Flyers,2017.0,NA
-2016-11-29,Arizona Coyotes,San Jose Sharks,2017.0,NA
-2016-11-29,Minnesota Wild,Vancouver Canucks,2017.0,NA
-2016-11-29,New Jersey Devils,Winnipeg Jets,2017.0,NA
-2016-11-30,Toronto Maple Leafs,Calgary Flames,2017.0,NA
-2016-11-30,San Jose Sharks,Los Angeles Kings,2017.0,NA
-2016-11-30,Pittsburgh Penguins,New York Islanders,2017.0,NA
-2016-12-01,Los Angeles Kings,Arizona Coyotes,2017.0,NA
-2016-12-01,Carolina Hurricanes,Boston Bruins,2017.0,NA
-2016-12-01,New York Rangers,Buffalo Sabres,2017.0,NA
-2016-12-01,New Jersey Devils,Chicago Blackhawks,2017.0,NA
-2016-12-01,Columbus Blue Jackets,Colorado Avalanche,2017.0,NA
-2016-12-01,Florida Panthers,Detroit Red Wings,2017.0,NA
-2016-12-01,Philadelphia Flyers,Ottawa Senators,2017.0,NA
-2016-12-01,Dallas Stars,Pittsburgh Penguins,2017.0,NA
-2016-12-01,Tampa Bay Lightning,St. Louis Blues,2017.0,NA
-2016-12-01,Anaheim Ducks,Vancouver Canucks,2017.0,NA
-2016-12-01,Edmonton Oilers,Winnipeg Jets,2017.0,NA
-2016-12-01,New York Islanders,Washington Capitals,2017.0,NA
-2016-12-02,Minnesota Wild,Calgary Flames,2017.0,NA
-2016-12-02,Montreal Canadiens,San Jose Sharks,2017.0,NA
-2016-12-03,Columbus Blue Jackets,Arizona Coyotes,2017.0,NA
-2016-12-03,Boston Bruins,Buffalo Sabres,2017.0,NA
-2016-12-03,Dallas Stars,Colorado Avalanche,2017.0,NA
-2016-12-03,Anaheim Ducks,Edmonton Oilers,2017.0,NA
-2016-12-03,New Jersey Devils,Nashville Predators,2017.0,NA
-2016-12-03,Carolina Hurricanes,New York Rangers,2017.0,NA
-2016-12-03,Florida Panthers,Ottawa Senators,2017.0,NA
-2016-12-03,Chicago Blackhawks,Philadelphia Flyers,2017.0,NA
-2016-12-03,Detroit Red Wings,Pittsburgh Penguins,2017.0,NA
-2016-12-03,Winnipeg Jets,St. Louis Blues,2017.0,NA
-2016-12-03,Washington Capitals,Tampa Bay Lightning,2017.0,NA
-2016-12-03,Toronto Maple Leafs,Vancouver Canucks,2017.0,NA
+2016-11-29,Montreal Canadiens,Anaheim Ducks,2017.0,http://www.hockey-reference.com/boxscores/201611290ANA.html
+2016-11-29,Tampa Bay Lightning,Columbus Blue Jackets,2017.0,http://www.hockey-reference.com/boxscores/201611290CBJ.html
+2016-11-29,Florida Panthers,Chicago Blackhawks,2017.0,http://www.hockey-reference.com/boxscores/201611290CHI.html
+2016-11-29,Nashville Predators,Colorado Avalanche,2017.0,http://www.hockey-reference.com/boxscores/201611290COL.html
+2016-11-29,Dallas Stars,Detroit Red Wings,2017.0,http://www.hockey-reference.com/boxscores/201611290DET.html
+2016-11-29,Toronto Maple Leafs,Edmonton Oilers,2017.0,http://www.hockey-reference.com/boxscores/201611290EDM.html
+2016-11-29,Carolina Hurricanes,New York Rangers,2017.0,http://www.hockey-reference.com/boxscores/201611290NYR.html
+2016-11-29,Buffalo Sabres,Ottawa Senators,2017.0,http://www.hockey-reference.com/boxscores/201611290OTT.html
+2016-11-29,Boston Bruins,Philadelphia Flyers,2017.0,http://www.hockey-reference.com/boxscores/201611290PHI.html
+2016-11-29,Arizona Coyotes,San Jose Sharks,2017.0,http://www.hockey-reference.com/boxscores/201611290SJS.html
+2016-11-29,Minnesota Wild,Vancouver Canucks,2017.0,http://www.hockey-reference.com/boxscores/201611290VAN.html
+2016-11-29,New Jersey Devils,Winnipeg Jets,2017.0,http://www.hockey-reference.com/boxscores/201611290WPG.html
+2016-11-30,Toronto Maple Leafs,Calgary Flames,2017.0,http://www.hockey-reference.com/boxscores/201611300CGY.html
+2016-11-30,San Jose Sharks,Los Angeles Kings,2017.0,http://www.hockey-reference.com/boxscores/201611300LAK.html
+2016-11-30,Pittsburgh Penguins,New York Islanders,2017.0,http://www.hockey-reference.com/boxscores/201611300NYI.html
+2016-12-01,Los Angeles Kings,Arizona Coyotes,2017.0,http://www.hockey-reference.com/boxscores/201612010ARI.html
+2016-12-01,Carolina Hurricanes,Boston Bruins,2017.0,http://www.hockey-reference.com/boxscores/201612010BOS.html
+2016-12-01,New York Rangers,Buffalo Sabres,2017.0,http://www.hockey-reference.com/boxscores/201612010BUF.html
+2016-12-01,New Jersey Devils,Chicago Blackhawks,2017.0,http://www.hockey-reference.com/boxscores/201612010CHI.html
+2016-12-01,Columbus Blue Jackets,Colorado Avalanche,2017.0,http://www.hockey-reference.com/boxscores/201612010COL.html
+2016-12-01,Florida Panthers,Detroit Red Wings,2017.0,http://www.hockey-reference.com/boxscores/201612010DET.html
+2016-12-01,Philadelphia Flyers,Ottawa Senators,2017.0,http://www.hockey-reference.com/boxscores/201612010OTT.html
+2016-12-01,Dallas Stars,Pittsburgh Penguins,2017.0,http://www.hockey-reference.com/boxscores/201612010PIT.html
+2016-12-01,Tampa Bay Lightning,St. Louis Blues,2017.0,http://www.hockey-reference.com/boxscores/201612010STL.html
+2016-12-01,Anaheim Ducks,Vancouver Canucks,2017.0,http://www.hockey-reference.com/boxscores/201612010VAN.html
+2016-12-01,Edmonton Oilers,Winnipeg Jets,2017.0,http://www.hockey-reference.com/boxscores/201612010WPG.html
+2016-12-01,New York Islanders,Washington Capitals,2017.0,http://www.hockey-reference.com/boxscores/201612010WSH.html
+2016-12-02,Minnesota Wild,Calgary Flames,2017.0,http://www.hockey-reference.com/boxscores/201612020CGY.html
+2016-12-02,Montreal Canadiens,San Jose Sharks,2017.0,http://www.hockey-reference.com/boxscores/201612020SJS.html
+2016-12-03,Columbus Blue Jackets,Arizona Coyotes,2017.0,http://www.hockey-reference.com/boxscores/201612030ARI.html
+2016-12-03,Boston Bruins,Buffalo Sabres,2017.0,http://www.hockey-reference.com/boxscores/201612030BUF.html
+2016-12-03,Dallas Stars,Colorado Avalanche,2017.0,http://www.hockey-reference.com/boxscores/201612030COL.html
+2016-12-03,Anaheim Ducks,Edmonton Oilers,2017.0,http://www.hockey-reference.com/boxscores/201612030EDM.html
+2016-12-03,New Jersey Devils,Nashville Predators,2017.0,http://www.hockey-reference.com/boxscores/201612030NSH.html
+2016-12-03,Carolina Hurricanes,New York Rangers,2017.0,http://www.hockey-reference.com/boxscores/201612030NYR.html
+2016-12-03,Florida Panthers,Ottawa Senators,2017.0,http://www.hockey-reference.com/boxscores/201612030OTT.html
+2016-12-03,Chicago Blackhawks,Philadelphia Flyers,2017.0,http://www.hockey-reference.com/boxscores/201612030PHI.html
+2016-12-03,Detroit Red Wings,Pittsburgh Penguins,2017.0,http://www.hockey-reference.com/boxscores/201612030PIT.html
+2016-12-03,Winnipeg Jets,St. Louis Blues,2017.0,http://www.hockey-reference.com/boxscores/201612030STL.html
+2016-12-03,Washington Capitals,Tampa Bay Lightning,2017.0,http://www.hockey-reference.com/boxscores/201612030TBL.html
+2016-12-03,Toronto Maple Leafs,Vancouver Canucks,2017.0,http://www.hockey-reference.com/boxscores/201612030VAN.html
 2016-12-04,Tampa Bay Lightning,Carolina Hurricanes,2017.0,NA
 2016-12-04,Anaheim Ducks,Calgary Flames,2017.0,NA
 2016-12-04,Winnipeg Jets,Chicago Blackhawks,2017.0,NA

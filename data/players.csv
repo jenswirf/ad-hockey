@@ -41,7 +41,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 10,Anthony Duclair,NA,CA,LW,21,5-11,185,L,2,"$832,500",ARI
 18,Christian Dvorak,NA,US,LW,20,6-0,187,L,R,"$792,500",ARI
 23,Oliver Ekman-Larsson,NA,SE,D,25,6-2,200,L,6,"$6,000,000",ARI
-32,Tyler Gaudet,NA,CA,C,23,6-3,200,L,2,"$874,125",ARI
+32,Tyler Gaudet,NA,CA,C,23,6-3,205,L,2,"$874,125",ARI
 33,Alex Goligoski,NA,US,D,31,5-11,185,L,9,"$5,375,000",ARI
 11,Martin Hanzal,NA,CS,C,29,6-6,226,L,9,"$3,500,000",ARI
 48,Jordan Martinook,NA,CA,LW,24,6-0,202,L,2,"$625,000",ARI
@@ -61,6 +61,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 42,David Backes,NA,US,RW,32,6-3,221,R,10,"$8,000,000",BOS
 39,Matt Beleskey,NA,CA,LW,28,6-0,203,L,8,"$4,000,000",BOS
 37,Patrice Bergeron,NA,CA,C,31,6-1,195,R,12,"$8,250,000",BOS
+81,Anton Blidh,NA,SE,LW,21,6-0,201,L,R,"$792,500",BOS
 25,Brandon Carlo,NA,US,D,20,6-5,203,R,R,"$717,500",BOS
 33,Zdeno Chara,C,CS,D,39,6-9,250,L,18,"$5,000,000",BOS
 27,Austin Czarnik,NA,US,C,24,5-9,160,R,R,"$842,500",BOS
@@ -90,6 +91,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 47,Zach Bogosian,NA,US,D,26,6-3,228,R,8,"$5,250,000",BUF
 48,William Carrier,NA,CA,LW,22,6-2,212,L,R,"$652,500",BUF
 44,Nicolas Deslauriers,NA,CA,LW,25,6-1,216,L,3,"$775,000",BUF
+15,Jack Eichel,NA,US,C,20,6-2,196,R,1,"$925,000",BUF
 63,Tyler Ennis,NA,CA,LW,27,5-9,175,L,7,"$3,650,000",BUF
 41,Justin Falk,NA,CA,D,28,6-5,222,L,7,"$650,000",BUF
 52,Hudson Fasching,NA,US,RW,21,6-2,209,R,1,"$925,000",BUF
@@ -100,6 +102,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 28,Zemgus Girgensons,NA,LV,C,23,6-2,200,L,3,"$1,150,000",BUF
 4,Josh Gorges,NA,CA,D,32,6-1,204,L,11,"$3,900,000",BUF
 27,Derek Grant,NA,CA,C,26,6-3,212,L,3,"$650,000",BUF
+45,Brendan Guhle,NA,CA,D,19,6-2,186,L,R,"$667,500",BUF
 9,Evander Kane,NA,CA,LW,25,6-2,211,L,7,"$6,000,000",BUF
 77,Dmitry Kulikov,NA,SU,D,26,6-1,204,L,7,"$4,500,000",BUF
 22,Johan Larsson,NA,SE,C,24,5-11,200,L,4,"$950,000",BUF
@@ -202,7 +205,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 11,Andrew Desjardins,NA,CA,LW,30,6-1,195,R,6,"$800,000",CHI
 42,Gustav Forsling,NA,SE,D,20,6-0,186,L,R,"$767,500",CHI
 38,Ryan Hartman,NA,US,RW,22,6-0,181,R,2,"$832,500",CHI
-48,Vincent Hinostroza,NA,US,LW,22,5-9,173,R,1,"$667,500",CHI
+48,Vinnie Hinostroza,NA,US,LW,22,5-9,173,R,1,"$667,500",CHI
 4,Niklas Hjalmarsson,NA,SE,D,29,6-3,197,L,9,"$4,100,000",CHI
 81,Marian Hossa,NA,CS,RW,38,6-1,207,L,18,"$4,000,000",CHI
 88,Patrick Kane,NA,US,RW,28,5-11,177,L,9,"$13,800,000",CHI
@@ -229,6 +232,8 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 44,Eric Gelinas,NA,CA,D,25,6-4,215,L,4,"$1,650,000",COL
 46,A.J. Greer,NA,CA,LW,20,6-3,204,L,R,"$725,000",COL
 25,Mikhail Grigorenko,NA,RU,C,22,6-3,209,L,4,"$1,300,000",COL
+22,Rocco Grimaldi,NA,US,C,23,5-6,180,R,2,"$925,000",COL
+42,Samuel Henley,NA,CA,C,23,6-4,210,L,R,"$590,000",COL
 12,Jarome Iginla,NA,CA,RW,39,6-1,210,R,19,"$5,000,000",COL
 6,Erik Johnson,NA,US,D,28,6-4,225,R,8,"$6,000,000",COL
 92,Gabriel Landeskog,C,SE,LW,24,6-1,215,L,5,"$5,500,000",COL
@@ -274,13 +279,15 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 90,Jason Spezza,NA,CA,C,33,6-3,210,R,13,"$7,500,000",DAL
 8,Justin Abdelkader,NA,US,LW,29,6-2,218,L,9,"$5,500,000",DET
 72,Andreas Athanasiou,NA,CA,C,22,6-2,188,L,1,"$575,000",DET
-59,Tyler Bertuzzi,NA,CA,LW,21,6-0,178,L,R,"$667,500",DET
+59,Tyler Bertuzzi,NA,CA,LW,21,6-0,198,L,R,"$667,500",DET
+31,Jared Coreau,NA,CA,G,25,6-5,220,NA,R,"$575,000",DET
 65,Danny DeKeyser,NA,US,D,26,6-3,192,L,4,"$4,000,000",DET
 52,Jonathan Ericsson,NA,SE,D,32,6-4,220,L,9,"$4,250,000",DET
 41,Luke Glendening,NA,US,C,27,5-11,199,R,3,"$675,000",DET
 25,Mike Green,NA,CA,D,31,6-1,207,R,11,"$6,000,000",DET
 43,Darren Helm,NA,CA,C,30,6-0,196,L,9,"$5,000,000",DET
 35,Jimmy Howard,NA,US,G,32,6-1,218,L,10,"$5,500,000",DET
+26,Tomas Jurco,NA,CS,RW,24,6-2,188,L,3,"$950,000",DET
 55,Niklas Kronwall,NA,SE,D,36,6-0,194,L,12,"$5,500,000",DET
 71,Dylan Larkin,NA,US,C,20,6-1,190,L,1,"$925,000",DET
 39,Anthony Mantha,NA,CA,RW,22,6-5,221,L,1,"$832,500",DET
@@ -386,6 +393,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 24,Mathew Dumba,NA,CA,D,22,6-0,183,R,3,"$2,350,000",MIN
 14,Joel Eriksson Ek,NA,SE,LW,20,6-2,197,L,R,"$925,000",MIN
 5,Christian Folin,NA,SE,D,25,6-3,204,R,3,"$850,000",MIN
+63,Kurtis Gabriel,NA,CA,RW,23,6-4,211,R,1,"$725,000",MIN
 64,Mikael Granlund,NA,FI,C,24,5-10,184,L,4,"$3,200,000",MIN
 44,Tyler Graovac,NA,CA,C,23,6-5,212,L,2,"$600,000",MIN
 56,Erik Haula,NA,FI,C,25,6-0,193,L,3,"$1,050,000",MIN
@@ -393,6 +401,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 35,Darcy Kuemper,NA,CA,G,26,6-5,215,L,4,"$1,550,000",MIN
 59,Zack Mitchell,NA,CA,RW,24,6-1,184,R,R,"$640,000",MIN
 22,Nino Niederreiter,NA,CH,RW,24,6-2,211,L,5,"$2,666,666",MIN
+23,Gustav Olofsson,NA,SE,D,22,6-3,195,L,1,"$925,000",MIN
 11,Zach Parise,NA,US,LW,32,5-11,196,L,11,"$9,000,000",MIN
 29,Jason Pominville,NA,CA,RW,34,6-0,181,R,12,"$6,250,000",MIN
 39,Nate Prosser,NA,US,D,30,6-2,201,R,7,"$650,000",MIN
@@ -450,6 +459,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 21,Kyle Palmieri,NA,US,RW,25,5-10,185,R,6,"$4,500,000",NJD
 11,P.A. Parenteau,NA,CA,RW,33,6-0,200,R,8,"$1,250,000",NJD
 56,Blake Pietila,NA,US,LW,23,5-11,200,L,1,"$675,000",NJD
+47,John Quenneville,NA,CA,C,20,6-1,195,L,R,"$842,500",NJD
 22,Kyle Quincey,NA,CA,D,31,6-2,216,L,11,"$1,250,000",NJD
 35,Cory Schneider,NA,US,G,30,6-3,205,L,8,"$6,000,000",NJD
 28,Damon Severson,NA,CA,D,22,6-2,205,R,2,"$600,000",NJD
@@ -469,10 +479,12 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 12,Mike Fisher,C,CA,C,36,6-1,216,R,16,"$4,000,000",NSH
 9,Filip Forsberg,NA,SE,LW,22,6-1,205,R,4,"$6,000,000",NSH
 32,Frederick Gaudreau,NA,CA,C,23,6-0,179,R,R,"$595,000",NSH
+8,Petter Granberg,NA,SE,D,24,6-3,200,R,3,"$575,000",NSH
 52,Matt Irwin,NA,CA,D,29,6-1,207,L,4,"$575,000",NSH
 19,Calle Jarnkrok,NA,SE,C,25,5-11,186,R,3,"$1,700,000",NSH
 92,Ryan Johansen,NA,CA,C,24,6-3,218,R,5,"$6,000,000",NSH
 59,Roman Josi,NA,CH,D,26,6-1,201,L,5,"$4,250,000",NSH
+17,Mike Liambas,NA,CA,LW,27,5-10,203,L,R,"$575,000",NSH
 39,Marek Mazanec,NA,CS,G,25,6-4,187,NA,2,"$575,000",NSH
 18,James Neal,NA,CA,RW,29,6-2,221,L,8,"$5,000,000",NSH
 63,Mike Ribeiro,NA,CA,C,36,6-0,179,L,16,"$3,500,000",NSH
@@ -548,6 +560,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 1,Mike Condon,NA,US,G,26,6-2,197,NA,1,"$575,000",OTT
 32,Chris Driedger,NA,CA,G,22,6-3,200,NA,2,"$780,000",OTT
 18,Ryan Dzingel,NA,US,LW,24,6-0,187,L,1,"$750,000",OTT
+39,Andreas Englund,NA,SE,D,21,6-3,189,L,R,"$742,500",OTT
 30,Andrew Hammond,NA,CA,G,28,6-2,215,NA,3,"$1,350,000",OTT
 68,Mike Hoffman,NA,CA,LW,27,6-0,180,L,5,"$3,800,000",OTT
 65,Erik Karlsson,C,SE,D,26,6-0,191,R,7,"$7,000,000",OTT
@@ -560,6 +573,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 2,Dion Phaneuf,NA,CA,D,31,6-3,219,L,11,"$7,500,000",OTT
 26,Matt Puempel,NA,CA,LW,24,6-1,205,L,2,N/A,OTT
 10,Tom Pyatt,NA,CA,LW,29,5-11,185,L,5,"$800,000",OTT
+55,Buddy Robinson,NA,US,RW,25,6-6,232,R,1,"$750,000",OTT
 9,Bobby Ryan,NA,US,RW,29,6-2,204,R,9,"$7,250,000",OTT
 15,Zack Smith,NA,CA,C,28,6-2,208,L,8,"$2,350,000",OTT
 61,Mark Stone,NA,CA,RW,24,6-3,206,R,4,"$3,750,000",OTT
@@ -670,6 +684,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 10,Scottie Upshall,NA,CA,RW,33,6-0,200,L,13,"$900,000",STL
 64,Nail Yakupov,NA,RU,RW,23,5-11,195,L,4,"$2,500,000",STL
 30,Ben Bishop,NA,US,G,30,6-7,216,L,7,"$5,950,000",TBL
+15,Michael Bournival,NA,CA,LW,24,5-11,198,L,2,"$575,000",TBL
 11,Brian Boyle,NA,US,C,32,6-6,244,L,9,"$2,000,000",TBL
 23,J.T. Brown,NA,US,RW,26,5-10,169,R,4,"$1,250,000",TBL
 24,Ryan Callahan,NA,US,RW,31,5-10,187,R,10,"$6,500,000",TBL
@@ -693,6 +708,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 6,Anton Stralman,NA,SE,D,30,5-11,190,R,9,"$4,500,000",TBL
 62,Andrej Sustr,NA,CS,D,26,6-7,220,R,4,"$1,600,000",TBL
 88,Andrei Vasilevskiy,NA,RU,G,22,6-3,207,NA,2,"$925,000",TBL
+92,Joel Vermin,NA,CH,RW,24,5-11,192,L,1,"$575,000",TBL
 28,Luke Witkowski,NA,US,D,26,6-2,217,R,2,"$575,000",TBL
 31,Frederik Andersen,NA,DK,G,27,6-4,230,NA,3,"$5,000,000",TOR
 42,Tyler Bozak,NA,CA,C,30,6-1,195,R,7,"$4,500,000",TOR
@@ -796,6 +812,7 @@ no,player,letter,origin,position,age,height,weight,shoots,exp,salary,team
 8,Alex Ovechkin,C,SU,LW,31,6-3,239,R,11,"$10,000,000",WSH
 82,Zachary Sanford,NA,US,C,22,6-4,203,L,R,"$875,000",WSH
 88,Nate Schmidt,NA,US,D,25,6-1,194,L,3,"$875,000",WSH
+13,Jakub Vrana,NA,CZ,LW,20,6-0,195,L,R,"$925,000",WSH
 14,Justin Williams,NA,CA,RW,35,6-1,188,R,15,"$3,250,000",WSH
 43,Tom Wilson,NA,CA,RW,22,6-4,217,R,3,"$1,750,000",WSH
 26,Daniel Winnik,NA,CA,LW,31,6-2,206,L,9,"$1,500,000",WSH
