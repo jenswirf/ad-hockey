@@ -4,7 +4,7 @@ library(magrittr)
 library(lubridate)
 library(tidyverse)
 
-add_fantasy_points <- function(df) {
+add_skater_fantasy <- function(df) {
 
   df <- df %>%
     mutate(f_points = (goals * 3) +
@@ -14,6 +14,11 @@ add_fantasy_points <- function(df) {
              (shots * .4) +
              (power_play_goals + power_play_assists))
   df
+
+}
+
+add_goalie_fantasy <- function(df) {
+
 
 }
 

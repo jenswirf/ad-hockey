@@ -4,6 +4,7 @@ library(magrittr)
 library(lubridate)
 library(tidyverse)
 
+setwd("~/GitHub/ad-hockey")
 
 update_all <- function(dir = "data") {
 
@@ -22,14 +23,26 @@ update_all <- function(dir = "data") {
   fantasy_roster <<- update_fantasy_roster(dir)
 
   # teams
+  teams <<- read_teams()
 
   # lines
+  lines <<- update_lines(dir)
 
   .updated <- now()
   write_file(sprintf("Data as of _%s_", today()), "readme.md")
 
   invisible()
 }
+
+
+update_lines <- function(dir) {
+
+  lines <- read_lines()
+  write_csv(lines, file.path(dir, "lines.csv"))
+
+  lines
+}
+
 
 update_schedule <- function(dir, ...) {
 
